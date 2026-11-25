@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>هامور شابك</title><style>html,body{margin:0;background:#0b0b0b;height:100%}#ld{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#f1d79a;font:700 20px sans-serif}</style></head><body><div id="ld">جاري التحميل...</div><script>
+(function(){var F=["a1.txt","a2.txt","a3.txt"];
+Promise.all(F.map(function(f){return fetch(f+"?v="+38023653).then(function(r){if(!r.ok)throw new Error(f);return r.text()})})).then(function(P){var h=P.join("");document.open();document.write(h);document.close()}).catch(function(e){document.getElementById("ld").textContent="تعذر التحميل، تأكد من رفع ملفات a1.txt و a2.txt و a3.txt بجانب index.html"})})();
+</script></body></html>
